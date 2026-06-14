@@ -1,0 +1,1 @@
+jQuery(document).ready(function(b){b("input, textarea").placeholder();b("input[placeholder]:not(.placeholder)").each(function(){var a=b(this);a.data("placeholder",a.attr("placeholder")).focus(function(){a.removeAttr("placeholder")}).blur(function(){a.attr("placeholder",a.data("placeholder"))})})});
